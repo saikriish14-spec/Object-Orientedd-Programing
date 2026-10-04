@@ -1,10 +1,15 @@
-#create a class
+class Human:
+    species = "homo sapiens"
+    def __init__ (self,name,age,ethnicity,languages):
+        self.name=name
+        self.age=age
+        self.ethnicity=ethnicity
+        self.languages=languages
 
-class student:
-    grade = 7
-    print("Hello I am a student of grade",grade)
+bob=Human("Bob", 13, "indian", ["French", "German", "Spanish"])
+print(bob.name)
+print(bob.age)
+print(bob.ethnicity)
+print(bob.languages[2])
 
-
-# create an object
-
-ob = student()
+    
