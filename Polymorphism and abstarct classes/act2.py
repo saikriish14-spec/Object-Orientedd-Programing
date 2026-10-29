@@ -28,10 +28,10 @@ class Lion(Animal):
         print("I can roar")
 
 H = Human()
-H.move
+H.move()
 
 S = Snake()
-S.move
+S.move()
 
 D = Dog()
 D.move()
